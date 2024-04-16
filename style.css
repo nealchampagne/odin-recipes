@@ -10,6 +10,7 @@ body {
   font-weight: 700;
   text-align: center;
   text-decoration: #008000 wavy underline;
+  color: #443300;
 }
 
 img {
@@ -25,7 +26,7 @@ img {
   object-fit: cover;
 }
 
-h2, .name, .description, .steps, .ingredients {
+h2, .description, .steps, .ingredients {
   max-width: 1000px;
   color: #443300;
 }
