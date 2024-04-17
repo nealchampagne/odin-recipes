@@ -4,19 +4,19 @@
 
 body {
   background-color: #b6371e;
+  box-sizing: border-box;
+  width: 1000px;
 }
 
 .name {
   font-weight: 700;
   text-align: center;
   text-decoration: #008000 wavy underline;
-  color: #443300;
 }
 
 img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   border-radius: 10px;
   border-color: #8055ff;
   border-style: ridge;
@@ -26,9 +26,8 @@ img {
   object-fit: cover;
 }
 
-h2, .description, .steps, .ingredients {
-  max-width: 1000px;
-  color: #443300;
+h1, h2, .description, .steps, .ingredients {
+  color: #271d01;
 }
 
 h2 {
@@ -37,10 +36,12 @@ h2 {
 
 .pagelist {
   display: table;
-  margin: 0 auto;
-  padding: 30px;
   color: white;
   background-color: #008000;
+  margin: 0 auto;
+  padding: 30px 60px;
+  border: 8px #ffdd33;
+  border-style: ridge;
   border-radius: 20px;
   text-align: left;
   font-size: 30px;
@@ -51,21 +52,32 @@ a {
   color: orange;
 }
 
+a:hover {
+  color: #5b146b;
+}
+
 .description, .steps {
-  margin: 0px 150px;
-  background-color: #3050ff;
-  padding: 60px;
+  background-color: #091f99;
+  color: #ffffff;
+  margin: 0 150px;
+  padding: 30px 60px;
+  border: 8px;
   border-style: groove;
 }
 
 .ingredients {
-  background-color: orange;
-  margin: 0px 200px;
   display: table;
-  text-align: left;
   width: auto;
+  background-color: orange;
+  margin: 0 auto;
+  padding: 15px 30px;
+  border: 5px black;
   border-style: dotted;
-  padding: 40px;
+  text-align: left;
+}
+
+.pagelist li {
+  margin: 30px;
 }
 
 ul li {
